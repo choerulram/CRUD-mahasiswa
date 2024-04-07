@@ -24,7 +24,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link d-flex align-items-center gap-2" href="../portfolio/Portfolio/index.php">
+              <a class="nav-link d-flex align-items-center gap-2" href="https://choerulram.github.io/Portfolio/">
                 <svg class="bi"><use xlink:href="#file-earmark-text"/></svg>
                 Portfolio
               </a>
