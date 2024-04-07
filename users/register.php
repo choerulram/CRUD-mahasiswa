@@ -3,7 +3,7 @@ session_start();
 
 // cek session
 if(isset($_SESSION['login'])) {
-    header("Location: ../portfolio/dashboard.php");
+    header("Location: ../include/dashboard.php");
     exit;
 } 
 
@@ -42,10 +42,6 @@ include 'koneksi.php';
             padding: none;
             box-sizing: border-box;
         }
-        body {
-            /* background-color: hsl(0, 4%, 95%); */
-            background-image: url("https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1410.jpg?w=900&t=st=1689144335~exp=1689144935~hmac=6827e0dded2e70e354cc3f9017bef74c7c640cffb1a35d8f8b8510eb1447191b");
-        }
         h1 {
             text-align: center;
         }
@@ -54,7 +50,8 @@ include 'koneksi.php';
             border-radius: 10px;
             margin: auto;
             margin-top: 40px;
-            margin-bottom: 40px ;
+            margin-bottom: 40px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
         }
         p {
             text-align: center;
