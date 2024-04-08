@@ -17,7 +17,7 @@ include 'koneksi.php';
         if(registrasi($_POST) > 0) {
             echo "<script>
                     alert('User baru berhasil ditambahkan!');
-                    window.location.href = 'login.php';
+                    window.location.href = '../index.php';
                 </script>";
             exit;
         } else {
@@ -114,7 +114,7 @@ include 'koneksi.php';
             <div class="text-center">
                 <button type="submit" name="register" class="btn btn-primary">Register</button>
             </div>
-            <p class="text-center mt-3">Already have an account? <a href="login.php">Sign in</a></p>
+            <p class="text-center mt-3">Already have an account? <a href="../index.php">Sign in</a></p>
         </form>
     </div>
     <!-- end form register -->

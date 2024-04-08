@@ -140,7 +140,7 @@
             <div class="text-center">
                 <button type="submit" name="login" class="btn btn-primary">Login</button>
             </div>
-            <p class="text-center mt-3">Don't have an account yet? <a href="register.php">Sign up</a></p>
+            <p class="text-center mt-3">Don't have an account yet? <a href="users/register.php">Sign up</a></p>
         </form>
     </div>
     <!-- end form login -->
